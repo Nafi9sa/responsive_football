@@ -19,6 +19,38 @@ main{
     flex-direction: column;
 }
 
+/* -- Navbar -- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+     /* background-color: transparent; */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%
+    /* width: 1160px; */
+    /* height: 40px; */
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 80px;
+
+}
+
+nav span .button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #ffffff;
+    Width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+}
+
+
+
 /* -- Copa America Section -- */
 
 .container{
