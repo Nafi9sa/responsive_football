@@ -34,12 +34,32 @@ main{
 .title{
     width: 485px;
     height: 230px;
+    margin-right: 102px;
+    margin-left: 156px;
+    margin-top: 205px;
+    margin-bottom: 242px;
 }
 
 .title h1{
     color: #ffffff;
     font-size: 64px;
     line-height: 80px;
+    margin-bottom: 27px;
+}
+
+.title a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #ffffff;
+    Width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+}
+
+.banner{
+    margin-right: 140.99px;
+    margin-bottom: 87px;
+    margin-top: 152px;
 }
 
 .banner img{
