@@ -300,10 +300,27 @@ footer p{
 /* -- Mobile Devices */
 
 @media only screen and (max-width:688px){
-    .container, .players-info, .sponsors, .highlights, footer{
-        width: 100%;
+    nav{
+        display: none;
     }
-    nav, .diamond-sponsors, .gold-sponsors, .players, .play_ers{
+    .container, .players-info, .sponsors, .highlights, footer{
+        width: 688px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .banner img{
+        width: 200px;
+        height: 200px;
+    }
+    .title, .banner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .title, .banner{
+        
+        flex-direction: column;
+    }
+    .diamond-sponsors, .gold-sponsors, .players, .play_ers{
         grid-template-columns: repeat(1,1fr);
     }
     .player, .play_er, li{
@@ -322,9 +339,48 @@ footer p{
     .gold-sponsors img{
         width: 33px;
     }
+    .top-players{
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 2000px;
+    }
+    .play_er{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .play_er img{
+        width: 160px;
+        height: 140px;
+    }
+    .highlights{
+        width: 400px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .highlights-title{
+        margin-bottom: -80px;
+        text-align: left;
+    }
+    .highlights-title h1{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .highlights-title p{
+        font-size: 10px;
+        text-align: justify;
+    }
+    .highlights .banner img{
+         width: 300px;
+         height: 180px;
+         text-align: center;
+    }
+    .highlights-title, .banner{
+        flex-direction: column;
+    }
     footer{
-        margin-top: 50px;
+        margin-top: 100px;
         margin-bottom: 60px;
+        text-align: left;
     }
     footer img{
         width: 120px;
