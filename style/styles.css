@@ -331,13 +331,20 @@ footer p{
         height: 80px;
     } 
     .sponsors{
-        height: 230px;
+        height: 500px;
+        margin-top: 3500px;
     }
     .diamond-sponsors img{
         width: 120px;
+        height: 100px;
     }
     .gold-sponsors img{
         width: 33px;
+        height: 33px;
+    }
+    .t-players{
+        justify-content: left;
+        margin-top: 2000px;
     }
     .top-players{
         flex-direction: column;
