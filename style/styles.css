@@ -303,10 +303,32 @@ footer p{
     .container, .players-info, .sponsors, .highlights, footer{
         width: 100%;
     }
-    .players, .play_ers{
+    nav, .diamond-sponsors, .gold-sponsors, .players, .play_ers{
         grid-template-columns: repeat(1,1fr);
     }
-    .player, .play_er{
+    .player, .play_er, li{
         flex-direction: column;
     }
+    .player .photo img{
+        width: 120px;
+        height: 80px;
+    } 
+    .sponsors{
+        height: 230px;
+    }
+    .diamond-sponsors img{
+        width: 120px;
+    }
+    .gold-sponsors img{
+        width: 33px;
+    }
+    footer{
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    footer img{
+        width: 120px;
+        height: 70px;
+    }
+
 }
